@@ -99,3 +99,7 @@ nav a:hover {
 .boton:hover {
     background-color: #7b6046;
 }
+
+body {
+    border: 10px solid red;
+}
