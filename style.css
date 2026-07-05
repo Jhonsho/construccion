@@ -53,3 +53,49 @@ nav a {
 nav a:hover {
     color: #d2b48c;
 }
+
+/* Hero */
+.hero {
+    height: 80vh;
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero-contenido {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #5c4632;
+    color: white;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #7b6046;
+}
