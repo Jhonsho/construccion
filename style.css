@@ -84,7 +84,7 @@ nav a:hover{
 .hero{
   position:relative;
   min-height:100vh;
-  background:url("images/ORDUZ.jpeg") center center/cover no-repeat;
+  background:url("images/hero.jpeg") center center/cover no-repeat;
   display:flex;
   align-items:center;
 }
