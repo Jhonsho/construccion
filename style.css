@@ -30,3 +30,26 @@ header p {
     margin-top: 10px;
     font-size: 1.1rem;
 }
+
+/* Menú de navegación */
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #d2b48c;
+}
